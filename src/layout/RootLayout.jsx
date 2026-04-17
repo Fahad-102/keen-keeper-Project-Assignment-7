@@ -5,16 +5,16 @@ import Footer from '../component/footer/Footer';
 
 const RootLayout = () => {
 
-    const [events, setEvents] = useState([]); // 🔥 global state
+    const [events, setEvents] = useState([]); 
 
     return (
-        <div>
-            <Navbar />
-            
-            <Outlet context={{ events, setEvents }} />
-            
-            <Footer />
-        </div>
+        <div className="flex flex-col min-h-screen">
+    <Navbar />
+    <main className="grow">
+        <Outlet context={{ events, setEvents }} />
+    </main>
+    <Footer />
+</div>
     );
 };
 

@@ -32,10 +32,12 @@ const router = createBrowserRouter([
         loader: () => fetch('/data.json') 
       }
     ],
-    errorElement: <div className='container mx-auto px-100 pt-20 '> 
-     <img className='absolute  ' src={NotFound} alt="Page Not Found" />
-     <Link to={'/'} className='relative left-90  bottom-3 z-10 btn btn-success' >Go Back</Link>
-      </div>
+   errorElement: (
+  <div className='flex flex-col items-center justify-center min-h-screen'>
+    <img src={NotFound} alt="Page Not Found" className="max-w-md w-full" />
+    <Link to='/' className='mt-5 btn btn-success'>Go Back Home</Link>
+  </div>
+)
   },
 ])
 
