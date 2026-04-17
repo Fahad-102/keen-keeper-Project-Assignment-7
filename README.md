@@ -1,3 +1,9 @@
+👥 KeenKeeper — Friendship Tracker
+KeenKeeper is a personal connection manager designed to help you nurture and maintain your most meaningful friendships. In a busy world, it’s easy to lose track of time—KeenKeeper ensures you never go too long without reaching out to the people who matter most.
+
+🚀 Live Demo
+[(https://keen-keeper-as7.vercel.app/)]
+
 📖 Project Description
 KeenKeeper acts as a digital shelf for your relationships. It tracks when you last contacted a friend, categorizes them based on your interaction goals, and provides a seamless way to log new calls, texts, or video chats. With a focus on clean UI and intuitive user experience, it helps users turn "we should catch up sometime" into actual connections.
 
