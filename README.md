@@ -1,16 +1,44 @@
-# React + Vite
+📖 Project Description
+KeenKeeper acts as a digital shelf for your relationships. It tracks when you last contacted a friend, categorizes them based on your interaction goals, and provides a seamless way to log new calls, texts, or video chats. With a focus on clean UI and intuitive user experience, it helps users turn "we should catch up sometime" into actual connections.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🛠️ Technologies Used
+React.js - UI Library
 
-Currently, two official plugins are available:
+Tailwind CSS - Styling and Responsive Design
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+React Router Dom - Navigation and Dynamic Routing
 
-## React Compiler
+DaisyUI - Component Library
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+React Icons - Visual Elements
 
-## Expanding the ESLint configuration
+React Hot Toast - User Notifications
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Recharts - Friendship Analytics (Data Visualization)
+
+✨ Key Features
+Smart Friendship Dashboard: View all your friends at a glance with status indicators (On-track, Almost Due, Overdue) based on your last contact.
+
+Quick Check-in System: Log interactions (Call, Text, Video) with a single click directly from the friend's detail page, automatically updating your history.
+
+Interactive Timeline: A dedicated history page where you can filter and search through all your past interactions to see how well you're maintaining your bonds.
+
+Data-Driven Insights: A stats page featuring a Pie Chart that breaks down your communication methods, helping you see how you prefer to stay connected.
+
+📱 Responsive Design
+The application is fully optimized for all screen sizes:
+
+Mobile: Stacked layout for easy one-handed navigation.
+
+Tablet: Adaptive grid layouts.
+
+Desktop: Full 4-column grid and detailed side-by-side views.
+
+💡 How to run this project locally:
+Clone the repository: git clone [https://github.com/Fahad-102/keen-keeper-Project-Assignment-7.git]
+
+Install dependencies: npm install
+
+Start the dev server: npm run dev
+
+Developed with  by Muhammad Fahad Jamal
