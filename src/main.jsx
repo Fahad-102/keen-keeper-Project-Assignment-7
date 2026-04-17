@@ -15,7 +15,7 @@ const router = createBrowserRouter([
     element: <RootLayout/>,
     children: [
       {
-        path:'/home',
+        index : true,
         element: <Home/>
       },
       {
@@ -34,7 +34,7 @@ const router = createBrowserRouter([
     ],
     errorElement: <div className='container mx-auto px-100 pt-20 '> 
      <img className='absolute  ' src={NotFound} alt="Page Not Found" />
-     <Link to={'/home'} className='relative left-90  bottom-3 z-10 btn btn-success' >Go Back</Link>
+     <Link to={'/'} className='relative left-90  bottom-3 z-10 btn btn-success' >Go Back</Link>
       </div>
   },
 ])
