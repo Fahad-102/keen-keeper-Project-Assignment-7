@@ -27,7 +27,6 @@ const Home = () => {
         <div className='bg-base-200 min-h-screen'>
             
             <div className='max-w-7xl mx-auto px-4 py-10'>
-                <h2 className="text-3xl font-bold mb-8 text-green-950">Your Friends</h2>
                 <Friends friends={friends} />
             </div>
         </div>
