@@ -29,7 +29,7 @@ const Friends = () => {
             {loading ? (
                 <div className='flex justify-center p-20'><FadeLoader /></div>
             ) : (
-                <div className='grid grid-cols-4 gap-4 mx-auto'>      
+                <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mx-auto'>     
                     {friends.map((friend, index) => { 
                         const statusClass = 
                             friend.status === 'on-track' ? 'btn-success' : 
